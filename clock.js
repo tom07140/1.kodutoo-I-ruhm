@@ -16,7 +16,7 @@ function writeDate(){
   var today = new Date();
 
 //kuupäeva saamine
-  var day = today.getDay();
+  var day = today.getDate();
   var month = today.getMonth() + 1; //hakkab 0st peale, +1 vaja otsa panna. dets on 11s kuu muidu.
   var year = today.getFullYear();
 
